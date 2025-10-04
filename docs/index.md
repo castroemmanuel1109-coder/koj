@@ -1,2 +1,120 @@
-# Bienvenido
-Este es el inicio de tu documentación.
+<!DOCTYPE Index.html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Roboto+Slab:wght@100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <details class="accordion-nav">
+                <summary class="nav-link">Menú</summary>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./Sarita.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Mi novia bella <h1></h1>
+            <p class="profile-summary">
+                mi novia se llama sarita y es la  mujer mas bella del mundooooo
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="minoviaeslamejor@gmail.com">minovieslamejor@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573135410419" target="_blank" rel="noopener noreferrer">+573105410419 </a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Cosas que amo de ella</h2>
+        <div class="section-content">
+            <h3>pdst:son muchas</h3>
+            <ul class="list">
+                <li>
+                    <h4>Sus ojos</h4>
+                    <p>Son los  mas brillantes del mundooooo</p>
+                
+                </li>
+                <li>
+                    <h4>Sus cachetitos</h4>
+                    <p>Son suaves y tienen pequitassssss</p>
+                    
+                </li>
+            </ul>
+
+            <h3>otraa</h3>
+            <ul class="list">
+                <li>
+                    <h4>Su carita</h4>
+                    <p>ES MUY HERMOSAA <br>Minovia tiene cara de princesita de disney</p>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Caracteristicas</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Fisicas</h3>
+                <ul class="list-inline">
+                    <li>Ojazos</li>
+                    <li>Pelazooo</li>
+                    <li>Cachetitos hermosos</li>
+                    <li>Carita de princesa</li>
+                    <li>Sonrisa hermosa</Canvas></li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Cualidades</h3>
+                <ul class="list-inline">
+                    <li>muy inteligente</li>
+                    <li>Muy detallista</li>
+                    <li>se preocupa por lo demas</li>
+                    <li>tiene un lindo corazoncito</li>
+                    <li>sus sentimientos son hermosos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">mira de nuevo lo hermosa que eres</h2>
+        <div class="linktree-container">
+            <img src="./Sarita.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="https://www.tiktok.com" target="_blank" class="linktree-link"><strong>tiktok</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Diganle lo hermosa que es, solo mujeres</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="_replyto" placeholder="Tu Correo Electrónico" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; De tu novio <br> Tte amo mucho mi nico.</p>
+        <p>Desde el corazon para la mas bella</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
